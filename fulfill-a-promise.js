@@ -8,12 +8,12 @@
 
 //Better way below//
 //set strict mode
-'use strict';
+"use strict";
 //create promise with fulfill
  var promise = new Promise(function (fulfill, reject) {
 // create setTimeout with phrase
       setTimeout(function () {
-        fulfill('FULFILLED!');
+        fulfill("FULFILLED!");
       }, 300);
     });
 //above code will execute and then set your console log with .then
