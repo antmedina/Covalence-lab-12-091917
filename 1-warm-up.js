@@ -1,13 +1,13 @@
 // this is the barebones code that should be accepted//
-setTimeout(function() { return console.log('TIMED OUT!');}, 300);
+setTimeout(function() {console.log('TIMED OUT!');}, 300);
 
 //if not try this
-// (function() {setTimeout(function() { return console.log('TIMED OUT!');}, 300);}).call(this);//
+// (function() {setTimeout(function() {console.log('TIMED OUT!');}, 300);}).call(this);//
 
 //or begin the your code with -
 //"use strict";
 //then 
-//setTimeout(function() { return console.log('TIMED OUT!');}, 300);//
+//setTimeout(function() {console.log('TIMED OUT!');}, 300);//
 
 //Strict Mode is a new feature in ECMAScript 5 that allows you to place a program, or a function, in a "strict" operating context. This strict context prevents certain actions from being taken and throws more exceptions.
 // And: Strict mode helps out in a couple ways:

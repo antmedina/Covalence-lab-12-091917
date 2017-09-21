@@ -18,3 +18,9 @@
     });
 //above code will execute and then set your console log with .then
     promise.then(console.log)
+ //or
+    // promise.then(function (success){
+    //   console.log(success);
+    // }, function (err){
+    //   console.log(err);
+    // });   
