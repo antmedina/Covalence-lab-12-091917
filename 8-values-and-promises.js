@@ -1,7 +1,6 @@
-"use strict";
-function attachTitle(name){
-    return "Dr. " + name;
+function attachTitle(name) {
+    return "DR. " +  name;
 }
-var p = Promise.resolve("Manhattan");
+var p = Promise.resolve("MANHATTAN");
 
-p.then(attachtTitle).then(console.log);
+p.then(attachTitle).then(console.log);
